@@ -6,6 +6,12 @@ import branchRoutes from "./api/v1/routes/branch.routes";
 
 const app: Express = express();
 
+
+
+
+
+
+
 app.use(morgan("combined"));
 app.use(express.json());
 
