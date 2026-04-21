@@ -15,6 +15,7 @@ describe("createEmployeeSchema checks", () => {
       .resolves.not.toThrow();
   });
 
+  4
   it("fails when email format is incorrect", async () => {
     const invalidEmployee = {
       name: "Aman",
